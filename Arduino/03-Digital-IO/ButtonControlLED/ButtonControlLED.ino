@@ -10,6 +10,7 @@
   
   Link:
   - Tutorial [ZH]: https://docs.waveshare.net/ESP32-Arduino-Tutorials/Digital-IO#digital-io-exercise
+  - Tutorial [EN]: https://docs.waveshare.com/ESP32-Arduino-Tutorials/Digital-IO#digital-io-exercise
 */
 
 const int ledPin = 7;     // LED pin

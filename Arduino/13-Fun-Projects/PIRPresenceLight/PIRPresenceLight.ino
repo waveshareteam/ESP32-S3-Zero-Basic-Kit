@@ -15,6 +15,7 @@
 
   Link:
   - Tutorial [ZH]: https://docs.waveshare.net/ESP32-Arduino-Tutorials/13-3-Presence-Light
+  - Tutorial [EN]: https://docs.waveshare.com/ESP32-Arduino-Tutorials/13-3-Presence-Light
 */
 
 #include <FastLED.h>

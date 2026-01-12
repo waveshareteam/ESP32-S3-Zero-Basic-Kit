@@ -9,6 +9,7 @@
   
   Link:
   - Tutorial [ZH]: https://docs.waveshare.net/ESP32-Arduino-Tutorials/Digital-IO#digital-output
+  - Tutorial [EN]: https://docs.waveshare.com/ESP32-Arduino-Tutorials/Digital-IO#digital-output
 */
 
 const int ledPin = 7;  // Pin connected to the LED

@@ -20,6 +20,7 @@
 
   Link:
   - Tutorial [ZH]: https://docs.waveshare.net/ESP32-Arduino-Tutorials/13-5-Progress-Bar
+  - Tutorial [EN]: https://docs.waveshare.com/ESP32-Arduino-Tutorials/13-5-Progress-Bar
 */
 
 #include <Adafruit_SSD1327.h>

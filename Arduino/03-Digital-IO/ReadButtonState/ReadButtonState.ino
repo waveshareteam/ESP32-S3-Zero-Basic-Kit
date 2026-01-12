@@ -9,6 +9,7 @@
   
   Link:
   - Tutorial [ZH]: https://docs.waveshare.net/ESP32-Arduino-Tutorials/Digital-IO#digital-input
+  - Tutorial [EN]: https://docs.waveshare.com/ESP32-Arduino-Tutorials/Digital-IO#digital-input
 */
 
 const int buttonPin = 8;  // Pin connected to the button

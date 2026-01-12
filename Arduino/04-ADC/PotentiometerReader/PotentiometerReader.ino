@@ -9,6 +9,7 @@
 
   Link:
   - Tutorial [ZH]: https://docs.waveshare.net/ESP32-Arduino-Tutorials/Analog-Input
+  - Tutorial [EN]: https://docs.waveshare.com/ESP32-Arduino-Tutorials/Analog-Input
 */
 
 const int potentiometerPin = 7;  // Pin connected to the potentiometer

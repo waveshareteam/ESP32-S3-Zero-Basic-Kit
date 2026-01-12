@@ -12,6 +12,7 @@
 
   Link:
   - Tutorial [ZH]: https://docs.waveshare.net/ESP32-Arduino-Tutorials/13-1-Traffic-Light
+  - Tutorial [EN]: https://docs.waveshare.com/ESP32-Arduino-Tutorials/13-1-Traffic-Light
 */
 
 // Pin definitions

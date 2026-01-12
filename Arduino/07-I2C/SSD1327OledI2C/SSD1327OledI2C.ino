@@ -14,6 +14,7 @@
 
   Link:
   - Tutorial [ZH]: https://docs.waveshare.net/ESP32-Arduino-Tutorials/I2C-Communication
+  - Tutorial [EN]: https://docs.waveshare.com/ESP32-Arduino-Tutorials/I2C-Communication
 */
 
 #include <Adafruit_SSD1327.h>  // Adafruit SSD1327 library for the OLED display
