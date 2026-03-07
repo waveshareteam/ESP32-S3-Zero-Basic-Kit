@@ -9,6 +9,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/Bluetooth-Communication#ble-between-esp32
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/Bluetooth-Communication#ble-between-esp32
 """
 
 import aioble

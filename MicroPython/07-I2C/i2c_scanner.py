@@ -10,6 +10,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/I2C-Communication#i2c-scanner
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/I2C-Communication#i2c-scanner
 """
 
 from machine import Pin, I2C

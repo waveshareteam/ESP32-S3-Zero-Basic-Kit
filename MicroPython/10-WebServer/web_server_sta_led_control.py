@@ -9,6 +9,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/Web-Server#web-server-led-sta
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/Web-Server#web-server-led-sta
 """
 
 import time

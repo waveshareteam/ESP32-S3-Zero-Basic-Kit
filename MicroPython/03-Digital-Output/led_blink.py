@@ -9,6 +9,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/Digital-IO#digital-output
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/Digital-IO#digital-output
 """
 
 import time

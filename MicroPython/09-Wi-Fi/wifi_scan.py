@@ -8,6 +8,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/WiFi-Networking-Basic#wifi-scan
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/WiFi-Networking-Basic#wifi-scan
 """
 
 import time

@@ -17,6 +17,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/12-5-Progress-Bar
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/12-5-Progress-Bar
 """
 
 import time

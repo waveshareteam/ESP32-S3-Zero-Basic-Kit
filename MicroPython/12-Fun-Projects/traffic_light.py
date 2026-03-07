@@ -11,6 +11,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/12-1-Traffic-Light
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/12-1-Traffic-Light
 """
 
 import time

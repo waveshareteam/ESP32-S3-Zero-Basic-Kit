@@ -11,6 +11,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/Analog-Input
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/Analog-Input
 """
 
 import time

@@ -14,6 +14,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/12-4-LED-Strip
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/12-4-LED-Strip
 """
 
 import time

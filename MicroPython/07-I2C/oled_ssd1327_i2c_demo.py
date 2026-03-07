@@ -14,6 +14,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/I2C-Communication#i2c-ssd1327
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/I2C-Communication#i2c-ssd1327
 """
 
 from machine import I2C, Pin

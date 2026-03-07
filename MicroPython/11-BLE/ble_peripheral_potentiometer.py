@@ -9,6 +9,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/Bluetooth-Communication#ble-peripheral-sent
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/Bluetooth-Communication#ble-peripheral-sent
 """
 
 import aioble

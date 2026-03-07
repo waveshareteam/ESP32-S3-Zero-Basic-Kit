@@ -8,6 +8,7 @@ Wiring:
 
 Link:
 - Tutorial [ZH]: https://docs.waveshare.net/ESP32-MicroPython-Tutorials/WiFi-Networking-Basic#wifi-static-ip
+- Tutorial [EN]: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/WiFi-Networking-Basic#wifi-static-ip
 """
 
 import time
