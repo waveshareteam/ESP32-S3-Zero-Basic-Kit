@@ -1,5 +1,5 @@
 /*
-  WiFi Weather Display
+  WiFi Weather Display (Seniverse)
 
   Description: Connects to Wi-Fi, fetches weather data (JSON) from Seniverse API via HTTP, 
                and displays the weather information on an SSD1327 OLED screen.

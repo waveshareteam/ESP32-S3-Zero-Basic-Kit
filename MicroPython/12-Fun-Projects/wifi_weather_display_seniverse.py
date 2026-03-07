@@ -1,5 +1,5 @@
 """
-WiFi Weather Display
+WiFi Weather Display (Seniverse)
 
 Description: Connects to Wi-Fi to fetch and display real-time weather from Seniverse API on a Waveshare 1.5-inch OLED.
 
