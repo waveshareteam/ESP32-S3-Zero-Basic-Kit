@@ -1,11 +1,13 @@
-# MicroPython 示例代码
+# MicroPython Examples
 
-## 烧录固件
+[中文](README_ZH.md)
 
-固件下载地址：https://micropython.org/download/ESP32_GENERIC_S3/
+## Flash Firmware
 
-烧录固件请参考：https://docs.waveshare.net/ESP32-MicroPython-Tutorials/Getting-Started/#2-%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83
+Firmware download: https://micropython.org/download/ESP32_GENERIC_S3/
 
-## 教程资源
+For flashing instructions, please refer to: https://docs.waveshare.com/ESP32-MicroPython-Tutorials/Getting-Started
 
-- **文档教程**：https://docs.waveshare.net/ESP32-MicroPython-Tutorials
+## Tutorial Resources
+
+- **Documentation Tutorial**: https://docs.waveshare.com/ESP32-MicroPython-Tutorials
