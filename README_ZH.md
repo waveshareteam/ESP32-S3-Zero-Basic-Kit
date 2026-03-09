@@ -6,6 +6,8 @@
 
 我们致力于为开发者和电子爱好者提供详尽易懂的开源硬件教程，帮助您快速上手微雪产品，深入了解其功能特性。希望这些代码能为您的项目探索提供参考和便利。
 
+[![ESP32-S3-Zero-Basic-Kit](https://www.waveshare.net/photo/development-board/ESP32-XX-Basic-Kit/ESP32-XX-Basic-Kit-Acce-details-1.jpg)](https://www.waveshare.net/shop/ESP32-S3-Zero-Basic-Kit.htm)
+
 ## 教程资源
 
 - **文档教程**：https://docs.waveshare.net/ESP32-Tutorials-Intro
@@ -13,6 +15,6 @@
 
 ## 示例包含
 
-- Arduino
-- MicroPython
-- ESP-IDF
+- [Arduino](Arduino)
+- [MicroPython](MicroPython)
+- [ESP-IDF](ESP-IDF)
