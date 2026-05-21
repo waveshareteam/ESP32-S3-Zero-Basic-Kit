@@ -24,6 +24,14 @@ _LED_CHAR_UUID = bluetooth.UUID("539ca2ac-09e5-49be-90da-3b157549eac3")
 # Advertisement interval
 _ADV_INTERVAL_US = 250_000
 
+# BLE device name
+_DEVICE_NAME = "ESP32_LED_Control"
+
+# Initialize BLE stack and configure GAP device name
+_ble = bluetooth.BLE()
+_ble.active(True)
+_ble.config(gap_name=_DEVICE_NAME)
+
 # Configure peripheral device
 # read=True, write=True: Allow read and write
 # capture=True: Allow aioble to capture write events for handling in code
@@ -69,7 +77,7 @@ async def peripheral_task():
     while True:
         async with await aioble.advertise(
             _ADV_INTERVAL_US,
-            name="ESP32-LED",
+            name=_DEVICE_NAME,
             services=[_SERVICE_UUID],
         ) as connection:
             print("Connection from", connection.device)

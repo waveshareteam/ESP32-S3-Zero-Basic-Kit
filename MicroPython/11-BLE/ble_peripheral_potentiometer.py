@@ -24,6 +24,14 @@ _POT_CHAR_UUID = bluetooth.UUID("1b9a473a-4493-4536-8b2b-9d4133488256")
 # Advertisement interval
 _ADV_INTERVAL_US = 250_000
 
+# BLE device name
+_DEVICE_NAME = "ESP32_Potentiometer"
+
+# Initialize BLE stack and configure GAP device name
+_ble = bluetooth.BLE()
+_ble.active(True)
+_ble.config(gap_name=_DEVICE_NAME)
+
 # Configure peripheral device (GATT Server)
 # Register service and characteristic
 # read=True: Allow clients to read
@@ -55,7 +63,6 @@ async def sensor_task():
             # Note: BLE data transmission uses byte strings, need to convert integer to bytes.
             # Here, convert 12-bit integer (0-4095) to 2-byte little-endian data
             encoded_val = val.to_bytes(2, "little")
-            pot_characteristic.write(encoded_val)
 
             # Send notification to connected clients
             # notify only works when a client is connected and subscribed, aioble handles this automatically
@@ -73,7 +80,7 @@ async def peripheral_task():
         # services: List of service UUIDs included in the advertisement for client discovery
         async with await aioble.advertise(
             _ADV_INTERVAL_US,  # Advertisement interval (microseconds)
-            name="ESP32_Potentiometer",
+            name=_DEVICE_NAME,
             services=[_SERVICE_UUID],
         ) as connection:
             print("Connection from", connection.device)
